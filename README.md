@@ -1,4 +1,4 @@
-# Tyler Robinson (tsirobinson)
+# Tyler Robinson (tsirobinson) & Diana Luna (dianaluna01)
 ## Users can
 - [ ] Land on a visually pleasing homepage by default, which allows navigation to view all courses and all instructors
 - [ ] Can navigate to all instructors view, and
