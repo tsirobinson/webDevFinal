@@ -40,13 +40,13 @@
 - [X] Courses may be associated with at most one instructor
 - [X] Instructors may be associated with many courses
 ### API (Express, Sequelize)
-- [ ] Write a route to serve up all courses 
+- [ ] Write a route to serve up all courses
 - [ ] Write a route to serve up all instructors
 ### State Management (Redux)
-- [ ] Write a instructors sub-reducer to manage instructors in your Redux store 
+- [ ] Write a instructors sub-reducer to manage instructors in your Redux store
 - [ ] Write a courses sub-reducer to manage courses in your Redux store
 ### UI (React)
-- [ ] Write a component to display a list of all instructors (just their names and images) 
+- [ ] Write a component to display a list of all instructors (just their names and images)
 - [ ] Write a component to display a list of all courses (just their names)
 ### Client-Side Routing (React-Router)
 - [ ] Display the all-instructors component when the url matches '/instructors'
