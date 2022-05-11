@@ -40,8 +40,8 @@
 - [X] Courses may be associated with at most one instructor
 - [X] Instructors may be associated with many courses
 ### API (Express, Sequelize)
-- [ ] Write a route to serve up all courses
-- [ ] Write a route to serve up all instructors
+- [X] Write a route to serve up all courses
+- [X] Write a route to serve up all instructors
 ### State Management (Redux)
 - [ ] Write a instructors sub-reducer to manage instructors in your Redux store
 - [ ] Write a courses sub-reducer to manage courses in your Redux store
@@ -55,8 +55,8 @@
 
 ## Single Course and Single Instructor
 ### API (Express, Sequelize)
-- [ ] Write a route to serve up a single instructor (based on their id), including that instructor’s courses
-- [ ] Write a route to serve up a single course (based on its id), including that course's instructor
+- [X] Write a route to serve up a single instructor (based on their id), including that instructor’s courses
+- [X] Write a route to serve up a single course (based on its id), including that course's instructor
 ### UI (React)
 - [ ] Write a component to display a single instructor with the following information
     - [ ] The instructor's name, image, and department
@@ -74,8 +74,8 @@
 
 ## Editing an Instuctor and Editing a Course
 ### API (Express, Sequelize)
-- [ ] Write a route to edit a new instructor
-- [ ] Write a route to edit a new course
+- [X] Write a route to edit a new instructor
+- [X] Write a route to edit a new course
 ### UI (React)
 - [ ] Write a component to display a form for editing an instructor’s information
 - [ ] Display this component EITHER as part of the single-instructor view, or as its own view
@@ -85,24 +85,24 @@
 
 ## Adding a Course and Adding an Instructor
 ### API (Express, Sequelize)
-- [ ] Write a route to add a new instructor
-- [ ] Write a route to add a new course
+- [X] Write a route to add a new instructor
+- [X] Write a route to add a new course
 ### UI (React)
 - [ ] Write a component to display a form for adding a new instructor that contains inputs for at least the name and address
 - [ ] Display this component EITHER as part of the all-instructors view, or as its own view
-- [ ] Submitting the form with a valid name/address should
+- [ ] Submitting the form with a valid name/department should
     - [ ] Make a request that causes the new instructor to be persisted in the database
     - [ ] Add the new instructor to the list of instructors without needing to refresh the page
 - [ ] Write a component to display a form for adding a new course that contains inputs for at least first name, last name and email
     - [ ] Display this component EITHER as part of the all-courses view, or as its own view
-    - [ ] Submitting the form with a valid first name/last name/email should
+    - [ ] Submitting the form with a valid title, timeslot should
         - [ ] Make a request that causes the new course to be persisted in the database
         - [ ] Add the new course to the list of courses without needing to refresh the page
 
 ## Removing an Instructor and Removing a Course
 ### API (Express, Sequelize)
-- [ ] Write a route to remove an instructor (based on its id)
-- [ ] Write a route to remove a course (based on its id)
+- [X] Write a route to remove an instructor (based on its id)
+- [X] Write a route to remove a course (based on its id)
 ### UI (React)
 - [ ] In the all-instructors view, include an 'X' button next to each instructor
 - [ ] Clicking the 'X' button should
