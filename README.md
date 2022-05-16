@@ -44,10 +44,10 @@
 - [X] Write a route to serve up all instructors
 ### State Management (Redux)
 - [ ] Write a instructors sub-reducer to manage instructors in your Redux store
-- [ ] Write a courses sub-reducer to manage courses in your Redux store
+- [X] Write a courses sub-reducer to manage courses in your Redux store
 ### UI (React)
 - [ ] Write a component to display a list of all instructors (just their names and images)
-- [ ] Write a component to display a list of all courses (just their names)
+- [X] Write a component to display a list of all courses (just their names)
 ### Client-Side Routing (React-Router)
 - [ ] Display the all-instructors component when the url matches '/instructors'
 - [ ] Display the all-courses component when the url matches '/courses'
