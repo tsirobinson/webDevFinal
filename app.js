@@ -91,5 +91,5 @@ const bootApp = async () => {
 bootApp();
 
 
-const PORT = 5000;
+const PORT = 5010;
 app.listen(PORT, console.log(`Server started on ${PORT}`));
