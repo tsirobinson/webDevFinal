@@ -4,8 +4,8 @@
 - [X] Can navigate to all instructors view, and
     - [X] See a list of all instructors in the database
     - [X] See an informative message if no instructors exist
-    - [ ] Add a new instructor
-        - [ ] With a validated form displaying real-time error messages
+    - [X] Add a new instructor
+        - [X] With a validated form displaying real-time error messages
 - [X] Can navigate to a single instructor view, and
     - [X] See details about a single instructor, including courses they teach (if any) 
     - [X] See an informative message if no courses belong to that instructor
@@ -95,9 +95,9 @@
 ### UI (React)
 - [X] Write a component to display a form for adding a new instructor that contains inputs for the firstname, lastname, department, and imageUrl
 - [X] Display this component EITHER as part of the all-instructors view, or as its own view
-- [ ] Submitting the form with a valid name/department should
-    - [ ] Make a request that causes the new instructor to be persisted in the database
-    - [ ] Add the new instructor to the list of instructors without needing to refresh the page
+- [X] Submitting the form with a valid name/department should
+    - [X] Make a request that causes the new instructor to be persisted in the database
+    - [X] Add the new instructor to the list of instructors without needing to refresh the page
 - [X] Write a component to display a form for adding a new course that contains inputs for at least first name, last name and email
     - [X] Display this component EITHER as part of the all-courses view, or as its own view
     - [X] Submitting the form with a valid title, timeslot should
